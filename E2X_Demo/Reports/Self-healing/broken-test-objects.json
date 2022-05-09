@@ -1,0 +1,24 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Guest_Checkout_Form/Privacy_Policy_Agreement_Check_box",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "/html/body/div/div/div/div/div/ol/li[1]/div[2]/div/div/form/fieldset/div/div/div[1]/fieldset/div/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Guest_Checkout_Form/Privacy_Policy_Agreement_Check_box_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Test/Page_Cornerstone Demo/a_Continue as guest",
+      "brokenLocator": "//a[@id\u003d\u0027checkout-guest-continue\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Shipping\u0027])[1]/preceding::a[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Test/Page_Cornerstone Demo/a_Continue as guest_neighbor.png"
+    }
+  ]
+}
